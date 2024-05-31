@@ -15,4 +15,4 @@ virtual_gid_maps = static:2000
 ##/etc/postfix/virtual-mailbox
 root@top-mp3.org   top-mp3.org/root/Maildir/
 
-# and look at tail -f /var/log/messages
+#and look at tail -f /var/log/messages
