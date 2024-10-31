@@ -1,3 +1,6 @@
+#fix apache permission error
+mount --bind -o uid=1,gid=1 /root/mounts/mac11/Volumes/4TB/html /var/www/html
+
 #android change package id command line
 LC_CTYPE=C && LANG=C && grep -ril . -e com.example.app --exclude-dir=.git | xargs sed -i '' -e 's/com.example.app/com.rulyua.memory_game/g'
 
