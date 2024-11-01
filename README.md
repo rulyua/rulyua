@@ -1,3 +1,9 @@
+#resize ext4
+growpart  /dev/sda 1
+(maybe reboot)
+resize2fs /dev/sda1
+
+
 #fix apache permission error
 mount --bind -o uid=1,gid=1 /root/mounts/mac11/Volumes/4TB/html /var/www/html
 
