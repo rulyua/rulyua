@@ -1,3 +1,6 @@
+#block external selenium access
+iptables -A INPUT -p tcp --destination-port 4444 -j DROP
+
 #resize ext4
 growpart  /dev/sda 1
 (maybe reboot)
