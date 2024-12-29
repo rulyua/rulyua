@@ -1,3 +1,11 @@
+#ovmf from - https://github.com/kholia/OSX-KVM/tree/master
+#run qemu both uefi and accel
+qemu-system-x86_64 -m 2512 \
+-drive if=pflash,format=raw,readonly=on,file=OVMF_CODE.fd  \
+-drive if=pflash,format=raw,readonly=on,file=OVMF_VARS.fd \
+-accel hvf \
+-drive file=steamdeck-repair-20231127.10-3.5.7.img,format=raw 
+
 #block external selenium access
 iptables -A INPUT -p tcp --destination-port 4444 -j DROP
 
