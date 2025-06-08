@@ -1,4 +1,4 @@
- 
+  
 
 #ovmf from - https://github.com/kholia/OSX-KVM/tree/master  
 #run qemu both uefi and accel  
