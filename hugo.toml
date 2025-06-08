@@ -1,6 +1,6 @@
-baseURL = "https://example.com"
+baseURL = "https://rulyua.github.io"
 languageCode = "en-us"
-title = "Archie"
+title = "rulyua personal blog and CV"
 theme="archie"
 copyright = "© Athul"
 pygmentsstyle = "monokai"
@@ -14,17 +14,8 @@ pygmentscodefencesguesssyntax = true
 [[params.social]]
 name = "GitHub"
 icon = "github"
-url = "https://github.com/athul/archie"
+url = "https://github.com/rulyua"
 
-[[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/athulcajay/"
-
-[[params.social]]
-name = "GitLab"
-icon = "gitlab"
-url = "https://gitlab.com/athul/"
 
 [[menu.main]]
 name = "Home"
